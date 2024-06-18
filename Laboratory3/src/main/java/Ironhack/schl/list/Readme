@@ -1,0 +1,11 @@
+The IntList Interface and its implementations
+
+This project demonstrates the implementation of an IntList interface with two different implementations: the 'IntArrayList' class and the 'IntVector' class.
+
+The IntList Interface
+The 'IntArrayList' class would be more efficient when dealing with many elements and predictable growth patterns. For example, if you know that you will be adding a fixed number of elements to the list, IntArrayList would be a good choice because it only requires resizing the array once, rather than resizing it multiple times as in the case of IntVector.
+
+The 'IntVector class', on the other hand, would be more efficient when dealing with many elements and unpredictable growth patterns. For example, if you add elements to the list one at a time and the list size is not known in advance, IntVector would be a good choice because it will automatically resize the array as needed.
+
+In short, the 'IntArrayList' class works for predictable growth patterns and the 'IntVector' class suits unpredictable growth patterns.
+
